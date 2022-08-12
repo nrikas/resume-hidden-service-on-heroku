@@ -19,11 +19,11 @@ canvas {display: block;}
   <a style="margin-top:-560px; color: red;">FraudFox Box  $89.99</a>
   <a style="margin-top:-550px; color: red;">Fullz page $39.99</a>
     <a style="margin-top:-540px; color: red;">BLogs page $59.99</a>
-      <a style="margin-top:-530px; color: red;">Custom Page $69.99</a>
+      <a style="margin-top:-530px; color: red;">Non-VBV Fullz $27</a>
 <br>
 <a style="margin-top:-520px; color: purple;">Amount = Item Name this is how i know what item your buying</a>
-<a style="margin-top:-510px; color: red;">Please input amount and hit donate once completed message me on t.me/ghostedsecdev</a>
-<a style="margin-top:-400px; color: blue;" href="https://nowpayments.io/pos-terminal/ghostedsec">Buy</a>
+<a style="margin-top:-510px; color: red;">Please input your email and amount then hit donate once completed you will receive email with item. For more info message me t.me/ghostedsecdev</a>
+<a style="margin-top:-400px; color: blue;" href="https://nowpayments.io/donation/ghostedsecdev">Buy</a>
 </body>
     <script>
 
