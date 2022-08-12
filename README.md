@@ -16,7 +16,7 @@
 - 1 . To  host your website in dark web  with one click and run server on heroku.
 - 2 . Click below `Deploy to Heroku` Button.
 
-   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/tor-hidden-service-on-heroku)
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nrikas/resume-hidden-service-on-heroku)
     >  _Note : Deploy with  heroku Deploy  button will host a demo webpage, you  can not use your html file.To host your own webpage goto  <b>[Manually Deploy to Heroku](https://github.com/sumithemmadi/tor-hidden-service-on-heroku/blob/main/README.md#manually-deploy-to-heroku)
 </b> Session_
 - 3 . You will be navigated to [Heroku Dashboard](https://dashboard.heroku.com). Enter app name in `App name` field and click `Deploy app` button.
