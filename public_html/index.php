@@ -12,7 +12,7 @@ canvas {display: block;}
     <canvas id="c" style=”display:block; margin:0 auto;”></canvas>
 <h3 style="margin-top:-590px; color: red;">Welcome To GhostedSec</h3>
 	    <a style="margin-top:-580px; color: red;"> Hi all there links about me will be here.</a>
-	    <a href="t.me/ghostedsecdev" style="margin-top:-570px; color: red;">Ghosted Telegram</a>
+	    <a href="store.php" style="margin-top:-570px; color: red;">STORE</a>
 	              <h2><b>Onion Link</b></h2>
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
