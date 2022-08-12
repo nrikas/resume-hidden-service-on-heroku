@@ -10,9 +10,9 @@ canvas {display: block;}
     <body>
     <script src="title-scroll.js" data-start="3000" data-speed="200"></script>
     <canvas id="c" style=”display:block; margin:0 auto;”></canvas>
-<h3 style="margin-top:-590px; color: red;">Welcome To Null</h3>
+<h3 style="margin-top:-590px; color: red;">Welcome To GhostedSec</h3>
 	    <a style="margin-top:-580px; color: red;">My reps</a>
-	    <a href="https://github.com/nullbutes/parrosweb" style="margin-top:-570px; color: red;">Parrot OS on web</a>
+	    <a href="t.me/ghostedsecdev" style="margin-top:-570px; color: red;">Ghosted Telegram</a>
 	              <h2><b>Onion Link</b></h2>
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
@@ -20,8 +20,8 @@ canvas {display: block;}
               echo "Congratulation's 🥳🥳<br>Your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
           } else {
               $output = "No domain";
-              echo '<p>Something went wrong<br>Refer to  Github Repository <br><a href="https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme">https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme</a></p>';
-              echo '<p>Or raise a issue at <br> <a href="https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme">https://github.com/sumithemmadi/tor-hidden-service-on-heroku/issues</a></p></br>';
+              echo '<p>Something went wrong</p>';
+              echo '<p>Link will be updated</p></br>';
           }
           ?>
     </body>
