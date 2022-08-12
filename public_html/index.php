@@ -1,34 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Host Tor Hidden Services On Heroku">
-	  <meta name="keywords" content="Tor,Hidden Service,Heroku,Nodejs,Php,Host Hidden Servics on heroku">
-  	<meta name="author" content="sumithemmadi">
-    <title>Tor Hidden Service On Heroku</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="img/favicon.png">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Tor Hidden Service On</span>  Heroku</h1>
-        </div>
-        </nav>
-      </div>
-    </header>
-
-    <section id="boxes">
-      <div class="container">
-        <h2><b>Welcome To The Landing Page</b></h2>
-        <p> <b>This is a example page of the GitHub Repository <a href="https://github.com/sumithemmadi/tor-hidden-service-on-heroku">https://github.com/sumithemmadi/tor-hidden-service-on-heroku<b></a></p>
-      </div>
-    </section>
-    <section id="boxes">
-      <div class="container">
-          <h2><b>Onion Link</b></h2>
+<title>Null</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        body {background: black;}
+canvas {display: block;}
+    </style>
+</head>
+    <body>
+    <script src="title-scroll.js" data-start="3000" data-speed="200"></script>
+    <canvas id="c" style=”display:block; margin:0 auto;”></canvas>
+<h3 style="margin-top:-590px; color: red;">Welcome To Null</h3>
+	    <a style="margin-top:-580px; color: red;">My reps</a>
+	    <a href="https://github.com/nullbutes/parrosweb" style="margin-top:-570px; color: red;">Parrot OS on web</a>
+	              <h2><b>Onion Link</b></h2>
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
               $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
@@ -39,16 +24,44 @@
               echo '<p>Or raise a issue at <br> <a href="https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme">https://github.com/sumithemmadi/tor-hidden-service-on-heroku/issues</a></p></br>';
           }
           ?>
-      </div>
-    </section>
-    <section id="boxes">
-      <div class="container">
-        <h2><b>Another Repo Build with Nodejs</b></h2>
-        <p> <b>Try my another  GitHub Repository built with nodejs <a href=https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku>https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku</a>
-      </div>
-    </section>
-    <footer>
-      <p>Tor Hidden Service On Heroku, Copyright &copy; 2021</p>
-    </footer>
-  </body>
+    </body>
+    <script>
+
+var c = document.getElementById("c");
+var ctx = c.getContext("2d");
+
+c.height = window.innerHeight;
+c.width = window.innerWidth;
+
+var english = "1001010101110101010101010010101000101011101111010101010110101010101010101110000101";
+english = english.split("");
+
+var font_size = 15;
+var columns = c.width/font_size; 
+var drops = [];
+for(var x = 0; x < columns; x++)
+	drops[x] = 1; 
+function draw()
+{
+	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+	ctx.fillRect(0, 0, c.width, c.height);
+	
+	ctx.fillStyle = "#0F0"; //green text
+	ctx.font = font_size + "px arial";
+	//looping over drops
+	for(var i = 0; i < drops.length; i++)
+	{
+		var text = english[Math.floor(Math.random()*english.length)];
+		ctx.fillText(text, i*font_size, drops[i]*font_size);
+		
+		if(drops[i]*font_size > c.height && Math.random() > 0.975)
+			drops[i] = 0;
+		
+		drops[i]++;
+	}
+}
+
+setInterval(draw, 33);
+    </script>
+
 </html>
