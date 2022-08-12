@@ -16,13 +16,13 @@ canvas {display: block;}
 <br>
 <a style="margin-top:-570px; color: red;">CashApp i do $100  for $1000 or £500  for £5000</a>
  <br>
-  <p style="margin-top:-560px; color: red;">FraudFox Box  $89.99</p>
-  <p style="margin-top:-550px; color: red;">Fullz page $39.99</p>
-    <p style="margin-top:-540px; color: red;">BLogs page $59.99</p>
-      <p style="margin-top:-530px; color: red;">Custom Page $69.99</p>
+  <a style="margin-top:-560px; color: red;">FraudFox Box  $89.99</a>
+  <a style="margin-top:-550px; color: red;">Fullz page $39.99</a>
+    <a style="margin-top:-540px; color: red;">BLogs page $59.99</a>
+      <a style="margin-top:-530px; color: red;">Custom Page $69.99</a>
 <br>
-<p style="margin-top:-520px; color: red;">Amount = Item Name this is how i know what item your buying</p>
-<pre style="margin-top:-510px; color: red;">Please input amount and hit donate once completed message me on t.me/ghostedsecdev</pre>
+<a style="margin-top:-520px; color: red;">Amount = Item Name this is how i know what item your buying</a>
+<a style="margin-top:-510px; color: red;">Please input amount and hit donate once completed message me on t.me/ghostedsecdev</a>
 <a style="margin-top:-400px; color: red;" src="https://nowpayments.io/pos-terminal/ghostedsec">Buy</a>
     </body>
     <script>
