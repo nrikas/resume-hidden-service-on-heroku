@@ -14,7 +14,7 @@ canvas {display: block;}
 	    <a style="margin-top:-580px; color: red;"> Hi all there links about me will be here.</a>
 <a style="margin-top:-580px; color: red;">Bank Transfer Any Country i do $100  for $1000 or £400  for £4000</a>
 <br>
-<a style="margin-top:-570px; color: red;">CashApp i do $100  for $1000 or £500  for £5000</a>
+<a style="margin-top:-570px; color: red;">CashApp i do $200  for $2000 or £500  for £5000</a>
  <br>
   <a style="margin-top:-560px; color: red;">FraudFox Box  $89.99</a>
   <a style="margin-top:-550px; color: red;">Fullz page $39.99</a>
@@ -23,8 +23,9 @@ canvas {display: block;}
 <br>
 <a style="margin-top:-520px; color: red;">Amount = Item Name this is how i know what item your buying</a>
 <a style="margin-top:-510px; color: red;">Please input amount and hit donate once completed message me on t.me/ghostedsecdev</a>
-<a style="margin-top:-400px; color: red;" src="https://nowpayments.io/pos-terminal/ghostedsec">Buy</a>
-    </body>
+<a style="margin-top:-400px; color: red;" href="https://nowpayments.io/pos-terminal/ghostedsec">Buy</a>
+<iframe href="https://nowpayments.io/embeds/donation-widget?api_key=5C42R42-FCVMJ0R-HXPPZ7F-Z4031V4" frameborder="0" scrolling="no" style="overflow-y: hidden;" width="354" height="680"></iframe>    
+</body>
     <script>
 
 var c = document.getElementById("c");
