@@ -21,10 +21,9 @@ canvas {display: block;}
     <a style="margin-top:-540px; color: red;">BLogs page $59.99</a>
       <a style="margin-top:-530px; color: red;">Custom Page $69.99</a>
 <br>
-<a style="margin-top:-520px; color: red;">Amount = Item Name this is how i know what item your buying</a>
+<a style="margin-top:-520px; color: purple;">Amount = Item Name this is how i know what item your buying</a>
 <a style="margin-top:-510px; color: red;">Please input amount and hit donate once completed message me on t.me/ghostedsecdev</a>
-<a style="margin-top:-400px; color: red;" href="https://nowpayments.io/pos-terminal/ghostedsec">Buy</a>
-<iframe href="https://nowpayments.io/embeds/donation-widget?api_key=5C42R42-FCVMJ0R-HXPPZ7F-Z4031V4" frameborder="0" scrolling="no" style="overflow-y: hidden;" width="354" height="680"></iframe>    
+<a style="margin-top:-400px; color: blue;" href="https://nowpayments.io/pos-terminal/ghostedsec">Buy</a>
 </body>
     <script>
 
