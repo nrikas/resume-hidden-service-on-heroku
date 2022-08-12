@@ -11,13 +11,13 @@ canvas {display: block;}
     <script src="title-scroll.js" data-start="3000" data-speed="200"></script>
     <canvas id="c" style=”display:block; margin:0 auto;”></canvas>
 <h3 style="margin-top:-590px; color: red;">Welcome To GhostedSec</h3>
-	    <a style="margin-top:-580px; color: red;">My reps</a>
+	    <a style="margin-top:-580px; color: red;"> Hi all there links about me will be here.</a>
 	    <a href="t.me/ghostedsecdev" style="margin-top:-570px; color: red;">Ghosted Telegram</a>
 	              <h2><b>Onion Link</b></h2>
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
               $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
-              echo "Congratulation's 🥳🥳<br>Your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
+              echo "Congratulation's 🥳🥳<br>Link over tor <br>New links updates here <a href=http://$output>$output</a>";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong</p>';
