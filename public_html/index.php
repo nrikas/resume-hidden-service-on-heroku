@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Null</title>
+<title>GhostedSec</title>
     <style>
         * {margin: 0; padding: 0;}
         body {background: black;}
